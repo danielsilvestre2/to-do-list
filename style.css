@@ -48,7 +48,7 @@ main {
 	padding: 30px;
 }
 
-section#create-lists {
+section#create-task {
 	height: 40%;
 	width: 100%;
 	padding: 20px;
@@ -62,7 +62,7 @@ section#create-lists {
 	animation: fade-up .6s ease forwards;
 }
 
-section#create-lists .create-box {
+section#create-task .create-box {
 	height: 100%;
 	width: 100%;
 	display: flex;
@@ -77,18 +77,18 @@ hr {
 	height: 50px;
 }
 
-section#create-lists input, button {
+section#create-task input, button {
 	border-radius: 10px;
 	border: none;
 	padding: 10px;
 }
 
-section#create-lists label {
+section#create-task label {
 	font-size: .8em;
 	transform: translateY(5px);
 }
 
-section#create-lists input {
+section#create-task input {
 	margin-top: -10px;
 	outline: none;
 	border: 2px solid var(--color4);
@@ -98,13 +98,13 @@ section#create-lists input {
 	transition: .2s;
 }
 
-section#create-lists input::placeholder {
+section#create-task input::placeholder {
 	color: var(--color2);
 }
 
-section#create-lists input:focus { border: 2px solid var(--color2); }
+section#create-task input:focus { border: 2px solid var(--color2); }
 
-section#create-lists button {
+section#create-task button {
 	width: 200px;
 	height: 30x;
 	position: relative;
@@ -112,7 +112,7 @@ section#create-lists button {
 	transition: .2s;
 }
 
-section#create-lists button:hover {
+section#create-task button:hover {
 	background: #0d0;
 	color: #fff;
 	box-shadow: 0 5px 5px #00000030 / inset 0 -10px 10px #00000060;
